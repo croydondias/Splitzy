@@ -1,0 +1,426 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7BC913051B36B6200078FAF9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BC913041B36B6200078FAF9 /* AppDelegate.swift */; };
+		7BC913071B36B6200078FAF9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BC913061B36B6200078FAF9 /* ViewController.swift */; };
+		7BC9130A1B36B6200078FAF9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BC913081B36B6200078FAF9 /* Main.storyboard */; };
+		7BC9130C1B36B6200078FAF9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7BC9130B1B36B6200078FAF9 /* Images.xcassets */; };
+		7BC9130F1B36B6200078FAF9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7BC9130D1B36B6200078FAF9 /* LaunchScreen.xib */; };
+		7BC9131B1B36B6200078FAF9 /* SplitzyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BC9131A1B36B6200078FAF9 /* SplitzyTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7BC913151B36B6200078FAF9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7BC912F71B36B61F0078FAF9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7BC912FE1B36B61F0078FAF9;
+			remoteInfo = Splitzy;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7BC912FF1B36B6200078FAF9 /* Splitzy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Splitzy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BC913031B36B6200078FAF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7BC913041B36B6200078FAF9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7BC913061B36B6200078FAF9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7BC913091B36B6200078FAF9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7BC9130B1B36B6200078FAF9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		7BC9130E1B36B6200078FAF9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		7BC913141B36B6200078FAF9 /* SplitzyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SplitzyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BC913191B36B6200078FAF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7BC9131A1B36B6200078FAF9 /* SplitzyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplitzyTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7BC912FC1B36B61F0078FAF9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BC913111B36B6200078FAF9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7BC912F61B36B61F0078FAF9 = {
+			isa = PBXGroup;
+			children = (
+				7BC913011B36B6200078FAF9 /* Splitzy */,
+				7BC913171B36B6200078FAF9 /* SplitzyTests */,
+				7BC913001B36B6200078FAF9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7BC913001B36B6200078FAF9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7BC912FF1B36B6200078FAF9 /* Splitzy.app */,
+				7BC913141B36B6200078FAF9 /* SplitzyTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7BC913011B36B6200078FAF9 /* Splitzy */ = {
+			isa = PBXGroup;
+			children = (
+				7BC913041B36B6200078FAF9 /* AppDelegate.swift */,
+				7BC913061B36B6200078FAF9 /* ViewController.swift */,
+				7BC913081B36B6200078FAF9 /* Main.storyboard */,
+				7BC9130B1B36B6200078FAF9 /* Images.xcassets */,
+				7BC9130D1B36B6200078FAF9 /* LaunchScreen.xib */,
+				7BC913021B36B6200078FAF9 /* Supporting Files */,
+			);
+			path = Splitzy;
+			sourceTree = "<group>";
+		};
+		7BC913021B36B6200078FAF9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7BC913031B36B6200078FAF9 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7BC913171B36B6200078FAF9 /* SplitzyTests */ = {
+			isa = PBXGroup;
+			children = (
+				7BC9131A1B36B6200078FAF9 /* SplitzyTests.swift */,
+				7BC913181B36B6200078FAF9 /* Supporting Files */,
+			);
+			path = SplitzyTests;
+			sourceTree = "<group>";
+		};
+		7BC913181B36B6200078FAF9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7BC913191B36B6200078FAF9 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7BC912FE1B36B61F0078FAF9 /* Splitzy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7BC9131E1B36B6200078FAF9 /* Build configuration list for PBXNativeTarget "Splitzy" */;
+			buildPhases = (
+				7BC912FB1B36B61F0078FAF9 /* Sources */,
+				7BC912FC1B36B61F0078FAF9 /* Frameworks */,
+				7BC912FD1B36B61F0078FAF9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Splitzy;
+			productName = Splitzy;
+			productReference = 7BC912FF1B36B6200078FAF9 /* Splitzy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7BC913131B36B6200078FAF9 /* SplitzyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7BC913211B36B6200078FAF9 /* Build configuration list for PBXNativeTarget "SplitzyTests" */;
+			buildPhases = (
+				7BC913101B36B6200078FAF9 /* Sources */,
+				7BC913111B36B6200078FAF9 /* Frameworks */,
+				7BC913121B36B6200078FAF9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7BC913161B36B6200078FAF9 /* PBXTargetDependency */,
+			);
+			name = SplitzyTests;
+			productName = SplitzyTests;
+			productReference = 7BC913141B36B6200078FAF9 /* SplitzyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7BC912F71B36B61F0078FAF9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Croydon Dias";
+				TargetAttributes = {
+					7BC912FE1B36B61F0078FAF9 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					7BC913131B36B6200078FAF9 = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = 7BC912FE1B36B61F0078FAF9;
+					};
+				};
+			};
+			buildConfigurationList = 7BC912FA1B36B61F0078FAF9 /* Build configuration list for PBXProject "Splitzy" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7BC912F61B36B61F0078FAF9;
+			productRefGroup = 7BC913001B36B6200078FAF9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7BC912FE1B36B61F0078FAF9 /* Splitzy */,
+				7BC913131B36B6200078FAF9 /* SplitzyTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7BC912FD1B36B61F0078FAF9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BC9130A1B36B6200078FAF9 /* Main.storyboard in Resources */,
+				7BC9130F1B36B6200078FAF9 /* LaunchScreen.xib in Resources */,
+				7BC9130C1B36B6200078FAF9 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BC913121B36B6200078FAF9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7BC912FB1B36B61F0078FAF9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BC913071B36B6200078FAF9 /* ViewController.swift in Sources */,
+				7BC913051B36B6200078FAF9 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BC913101B36B6200078FAF9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BC9131B1B36B6200078FAF9 /* SplitzyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7BC913161B36B6200078FAF9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7BC912FE1B36B61F0078FAF9 /* Splitzy */;
+			targetProxy = 7BC913151B36B6200078FAF9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7BC913081B36B6200078FAF9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7BC913091B36B6200078FAF9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7BC9130D1B36B6200078FAF9 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7BC9130E1B36B6200078FAF9 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7BC9131C1B36B6200078FAF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7BC9131D1B36B6200078FAF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7BC9131F1B36B6200078FAF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Splitzy/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		7BC913201B36B6200078FAF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Splitzy/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		7BC913221B36B6200078FAF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SplitzyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Splitzy.app/Splitzy";
+			};
+			name = Debug;
+		};
+		7BC913231B36B6200078FAF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SplitzyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Splitzy.app/Splitzy";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7BC912FA1B36B61F0078FAF9 /* Build configuration list for PBXProject "Splitzy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BC9131C1B36B6200078FAF9 /* Debug */,
+				7BC9131D1B36B6200078FAF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7BC9131E1B36B6200078FAF9 /* Build configuration list for PBXNativeTarget "Splitzy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BC9131F1B36B6200078FAF9 /* Debug */,
+				7BC913201B36B6200078FAF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7BC913211B36B6200078FAF9 /* Build configuration list for PBXNativeTarget "SplitzyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BC913221B36B6200078FAF9 /* Debug */,
+				7BC913231B36B6200078FAF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7BC912F71B36B61F0078FAF9 /* Project object */;
+}
